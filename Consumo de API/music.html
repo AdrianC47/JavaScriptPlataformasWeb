@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imagenes encontradas</title>
+    <link rel="stylesheet" href="static/Css/estilos.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form>
+    <div class="container">
+      <header class="header">
+        <h1 id="title">Nombres de Artista</h1>
+        <p id="description">Por favor ingrese el nombre del artista a buscar</p>
+      </header>
+        <div class="form-group"> 
+            <label for="artists">Nombre</label>
+            <input id='artists' type="text" name="artists" class="formControl" placeholder="Ingrese el Nombre " required>
+            <div class="form-group">    
+                <button type="submit" value="Buscar" class="btn" style="width: 40%;margin: auto; height: 55px;">Buscar</button>
+            </div>
+        </div>
+    </div>
+  </form>
+  <div class="dato-container"></div>
+<script src="music.js"></script>
+  </body>
+</html>
